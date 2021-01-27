@@ -65,3 +65,10 @@ print(num)
 ````
 retorna: 8
 
+````
+
+import emoji
+print(emoji.emojize("Olá, Mundo :earth_americas:" use_aliases=true))
+
+````
+
