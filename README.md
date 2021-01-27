@@ -41,6 +41,27 @@ raiz = math.sqrt(num)
 print("A raix de {} é igual a {}".format(num,math.floor(raiz)))
 
 ````
+mais de uma biblioteca
 
+````
+from math import sqrt, floor
+num = int(input("Digite um número: "))
+raiz = sqrt(num)
+print("A raiz {} é igual a {:.2f}".format(num, floor(raiz)))
 
+````
+random - números aleatórios
+
+````
+import random
+num = random.random()
+print(num)
+````
+retorna :0.3528306984583961
+````
+import random
+num = random.randint(1,10)
+print(num)
+````
+retorna: 8
 
