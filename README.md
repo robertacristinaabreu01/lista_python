@@ -20,6 +20,8 @@ como importar bibliotecas em python
 
 [maiores informações sobre a biblioteca math](https://docs.python.org/pt-br/3/library/math.html?highlight=math)
 
+Para importar toda a biblioteca (import math) e  para parte da biblioteca (from math import sqrt)
+
 exemplos: 
 ````
 import math
@@ -27,7 +29,18 @@ num = int (input("Digite um número: "))
 raiz = math.sqrt(num)
 print("A raix de {} é igual a {}".format(num,raiz))
 
-```
+````
 
-* para importar toda a biblioteca (import math)
-* para parte da biblioteca (from math import sqrt)
+arredondamento com math.floor()
+
+
+````
+import math
+num = int (input("Digite um número: "))
+raiz = math.sqrt(num)
+print("A raix de {} é igual a {}".format(num,math.floor(raiz)))
+
+````
+
+
+
